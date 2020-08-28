@@ -1,0 +1,66 @@
+.parent {
+  font-family: "Segoe UI Light", sans-serif;
+  font-size: 4em;]
+  margin-top: 10%;
+  position: relative;
+  margin-left: 22%;
+
+}
+hr { width:80%; height:.5px; background: #fff; margin-left: 23.5%;}
+
+.child {
+  margin-top: 10%;
+  font-family: "Segoe UI Light", sans-serif;
+  font-size: .8em;
+  display: inline-block;
+}
+
+.container-1 {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 60%;
+
+}
+
+.container-1 div{
+  margin-top: 5%;
+  border-radius: 1em;
+  box-shadow: 6px 6px #e4e3e3;
+  min-height: 300px;
+  min-width: 200px;
+  border: 1px red solid;
+  padding: 10px;
+
+}
+
+.box1 {
+  flex:1;
+}
+
+p.style-1 {
+  font-size: 1.4em;
+  text-decoration:line-through;
+  color:red;
+}
+
+p.style-2 {
+  font-size: 1.4em;
+  text-decoration:line-through;
+  color:red;
+}
+
+p.style-3 {
+  font-size: 1.4em;
+  text-decoration:line-through;
+  color:red;
+}
+
+.box2 {
+  flex:1;
+}
+
+.box3 {
+  flex:1;
+}

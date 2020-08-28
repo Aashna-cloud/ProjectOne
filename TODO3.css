@@ -1,0 +1,96 @@
+.parent {
+  font-family: "Segoe UI Light", sans-serif;
+  font-size: 4em;]
+  margin-top: 10%;
+  position: relative;
+  margin-left: 22%;
+
+}
+hr { width:80%; height:.5px; background: #fff; margin-left: 23.5%;}
+
+.child {
+  margin-top: 10%;
+  font-family: "Segoe UI Light", sans-serif;
+  font-size: .8em;
+  display: inline-block;
+}
+
+.container-1 {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 60%;
+
+}
+
+.popup {
+  z-index: 2000;
+}
+
+.popup_inner {
+  position: relative;
+  background-color: rgba(255, 251, 251, 0.5);
+  margin-top: -26%;
+  background-color: white;
+  color: #000000;
+  width: 360px;
+  height: 180px;
+  border: 2px red solid;
+  padding-top: 5px;
+  padding-bottom: 7px;
+  border-radius: 1em;
+  
+}
+
+.button {
+  background-color: red;
+  color: white;
+  border: none;
+  height: 2em;
+  width: 4em;
+  border-radius: .5em;
+  font-size: 1em;
+  font-family: "Segoe UI Light";
+}
+
+.container-1 div{
+  margin-top: 5%;
+  border-radius: 1em;
+  box-shadow: 6px 6px #e4e3e3;
+  min-height: 300px;
+  min-width: 200px;
+  border: 1px red solid;
+  padding: 10px;
+
+}
+
+.box1 {
+  flex:1;
+}
+
+p.style-1 {
+  font-size: 1.4em;
+  text-decoration:line-through;
+  color:red;
+}
+
+p.style-2 {
+  font-size: 1.4em;
+  text-decoration:line-through;
+  color:red;
+}
+
+p.style-3 {
+  font-size: 1.4em;
+  text-decoration:line-through;
+  color:red;
+}
+
+.box2 {
+  flex:1;
+}
+
+.box3 {
+  flex:1;
+}
